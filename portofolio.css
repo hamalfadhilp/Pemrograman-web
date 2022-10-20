@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  section{
+    padding: 100px 200px;
+  }
+  
+  body{
+    font-family: sans-serif;
+  }
+  ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    }
+li {
+    float: left;
+   }
+li a,.media{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .Social:hover:hover,.media{
+    background-color: blue;
+}
+
+li.Social{
+    display: inline-block;
+}
+
+.isisosmed{
+    display: none;
+    position: absolute;
+    background-color: #c5c5c5;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.isisosmed a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+  
